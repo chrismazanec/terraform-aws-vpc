@@ -304,6 +304,12 @@ variable "external_nat_ips" {
   default     = []
 }
 
+variable "vpce_name_include_service" {
+  description = "Should be true if you want endpoint service name to be included in it's Name tag"
+  type        = bool
+  default     = false
+}
+
 variable "enable_public_s3_endpoint" {
   description = "Whether to enable S3 VPC Endpoint for public subnets"
   default     = true
