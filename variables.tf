@@ -305,7 +305,7 @@ variable "external_nat_ips" {
 }
 
 variable "vpce_name_include_service" {
-  description = "Should be true if you want endpoint service name to be included in it's Name tag"
+  description = "Should be true if you want endpoint service name to be included in its Name tag"
   type        = bool
   default     = false
 }

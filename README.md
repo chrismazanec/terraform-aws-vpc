@@ -692,7 +692,7 @@ No Modules.
 | vpc\_flow\_log\_permissions\_boundary | The ARN of the Permissions Boundary for the VPC Flow Log IAM Role | `string` | `null` | no |
 | vpc\_flow\_log\_tags | Additional tags for the VPC Flow Logs | `map(string)` | `{}` | no |
 | vpc\_tags | Additional tags for the VPC | `map(string)` | `{}` | no |
-| vpce\_name\_include\_service | Should be true if you want endpoint service name to be included in it's Name tag | `bool` | `false` | no |
+| vpce\_name\_include\_service | Should be true if you want endpoint service name to be included in its Name tag | `bool` | `false` | no |
 | vpn\_gateway\_az | The Availability Zone for the VPN Gateway | `string` | `null` | no |
 | vpn\_gateway\_id | ID of VPN Gateway to attach to the VPC | `string` | `""` | no |
 | vpn\_gateway\_tags | Additional tags for the VPN gateway | `map(string)` | `{}` | no |
